@@ -18,7 +18,7 @@ function Editor() {
 					</div>
 			</div>
 			
-			<div contenteditable="true">
+			<div contentEditable="true">
 
 			</div>
 		</div>	

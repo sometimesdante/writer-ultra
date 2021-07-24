@@ -1,0 +1,20 @@
+body {
+    --accent-color: orangered;
+    --background-color: white;
+    --text-color: black;
+    --button-text-color: var(--background-color);
+    --transition-delay: 1s;
+    --primary: #648dae;
+    --secondary: #aa647b;
+    transition: var(--transition-delay);
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+body.dark {
+    --accent-color: #D0D066;
+    --background-color: #333;
+    --text-color: white;
+    --primary: #a6d4fa;
+    --secondary: #f6a5c0;
+}

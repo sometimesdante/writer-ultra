@@ -1,0 +1,52 @@
+.externalContainer {
+	min-height: 80vh;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container {
+	width: max-content;
+	min-height: 100%;
+	margin: 0 auto;
+}
+
+.header {
+	margin-top: 60%;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.header3 {
+	margin-top: 4rem;
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+.description {
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.list {
+		list-style: none;
+		display: flex;
+		align-items: center;
+				padding-left: 0;
+
+	.listIndices {
+		font-size: 1.2rem;
+		padding: 0 1rem;
+	}
+}
+
+.button {
+	background-color: #333333;
+	color: #ffffff;
+	font-size: 1.4rem;
+	padding: 0.6rem 1em;
+	margin: 2rem;
+	text-decoration: none;
+}
+

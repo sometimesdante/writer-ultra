@@ -1,0 +1,22 @@
+.container {
+
+}
+
+.editor {
+
+}
+
+.tools {
+	display: flex;
+	justify-content: center;
+}
+
+.list {
+		list-style: none;
+		display: inline-flex;
+		padding-left: 0;
+.index {
+		font-size: 1.2rem;
+		padding: 1rem;
+	}
+}
